@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Use LinearLayout to set the arrangment -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@layout/body_gradient">
+
+    <include layout="@layout/header"/>
+    <EditText
+        android:id="@+id/search_var"
+        android:width="@dimen/search_width"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/search_hint"
+        android:inputType="text"/>
+    <LinearLayout
+        android:orientation="horizontal"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="@dimen/button_width"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/button_margin"  
+            android:text="@string/search"/>
+        <Button 
+            android:id="@+id/btn_all"
+            android:layout_width="@dimen/button_width"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/button_margin"  
+            android:text="@string/all"/>
+    </LinearLayout>
+    <include layout="@layout/footer"/>
+</LinearLayout>

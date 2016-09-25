@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TweetIndex</string>
+    <string name="title">TWEET INDEX</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Please enter a stock code</string>
+    <string name="search">Search</string>
+    <string name="all">View All</string>
+    <string name="advanced">Advanced Search</string>
+    
+    <string name="screen_name">Screen Name:</string>
+    <string name="location">Location:</string>
+    <string name="before">Before:</string>
+    <string name="after">After:</string>
+    
+    <string name="placeholder_sentiment">BUY</string>
+    <string name="placeholder_tweet">RT @OptionHut: Bullish watch list for Monday, Dec 9. $FNSR $GGP $JDSU $LNKD $CX $MGM $VMW $CIEN $IBN $ABBV $USB $COF $BIDU $AAPL</string>
+    <string name="placeholder_timestamp">2013-12-09 11:13:43</string>
+    <string name="placeholder_name">TradingGuru</string>
+    <string name="placeholder_loc">Hong Kong</string>
+    <string name="placeholder_net">Net sentiment is 0</string>
+</resources>

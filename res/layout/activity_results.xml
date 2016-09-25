@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Use LinearLayout to set the arrangment -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@layout/body_gradient">
+
+    <include layout="@layout/header"/>
+    <TextView 
+        android:id="@+id/search_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/search_font"
+        android:gravity="center_horizontal"
+        android:text=""/>
+    <TextView 
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text=""/>
+    <ListView 
+        android:id="@+id/tweet_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="@dimen/divider_height"
+        android:layout_weight="100">
+    </ListView>
+    <TextView 
+        android:id="@+id/net_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:textSize="@dimen/footer_font"
+        android:gravity="bottom|center_horizontal"
+        android:layout_weight="1"
+        android:text="@string/placeholder_net"/>
+</LinearLayout>
